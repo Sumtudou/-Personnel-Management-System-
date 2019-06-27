@@ -1,0 +1,1633 @@
+---------------------------------------------------------------
+[ 2019-06-07T14:59:22+08:00 ] 0.0.0.0 GET localhost/
+[运行时间：0.183230s] [吞吐率：5.46req/s] [内存消耗：1,959.24kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\php_web\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\index.html [ array (
+  0 => 'article',
+  1 => 'count',
+  2 => 'article_big',
+  3 => 'article_big_2',
+  4 => 'page',
+  5 => 'last',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T14:59:22+08:00 ] 0.0.0.0 GET localhost/2222222222
+[运行时间：0.033398s] [吞吐率：29.94req/s] [内存消耗：1,098.34kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => '2222222222',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/2222222222' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T14:59:23+08:00 ] 127.0.0.1 GET localhost/ddddddd
+[运行时间：0.053924s] [吞吐率：18.54req/s] [内存消耗：1,103.53kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ddddddd',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/ddddddd' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T14:59:23+08:00 ] 0.0.0.0 GET localhost/gsdgvdvdv
+[运行时间：0.043764s] [吞吐率：22.85req/s] [内存消耗：1,103.63kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'gsdgvdvdv',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/gsdgvdvdv' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T14:59:34+08:00 ] 0.0.0.0 GET localhost/login
+[运行时间：0.100294s] [吞吐率：9.97req/s] [内存消耗：1,339.63kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/login' => '',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\phpstudy\WWW\php_web\app\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T14:59:42+08:00 ] 0.0.0.0 POST localhost/Login
+[运行时间：0.041034s] [吞吐率：24.37req/s] [内存消耗：1,345.28kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680; PHPSESSID=ea0c47m393113qsokiv5hf7qi5',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'cache-control' => 'max-age=0',
+  'content-length' => '29',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/Login' => '',
+  'username' => 'root',
+  'pwd' => 'lijie123456',
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\phpstudy\WWW\php_web\app\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T14:59:42+08:00 ] 0.0.0.0 GET localhost/Operate
+[运行时间：0.067615s] [吞吐率：14.79req/s] [内存消耗：1,988.31kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Operate',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680; PHPSESSID=ea0c47m393113qsokiv5hf7qi5; Cauthor=ada20670f4509844c5e52357af9f272e',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/Operate' => '',
+)
+[ info ] [ RUN ] app\index\controller\Operate->index[ D:\phpstudy\WWW\php_web\app\index\controller\Operate.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\operate.html [ array (
+  0 => 'article',
+  1 => 'count',
+  2 => 'page',
+  3 => 'last',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T14:59:46+08:00 ] 0.0.0.0 GET localhost/Msgadmin
+[运行时间：0.174460s] [吞吐率：5.73req/s] [内存消耗：2,073.28kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Msgadmin',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680; PHPSESSID=ea0c47m393113qsokiv5hf7qi5; Cauthor=ada20670f4509844c5e52357af9f272e',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/Operate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/Msgadmin' => '',
+)
+[ info ] [ RUN ] app\index\controller\Msgadmin->index[ D:\phpstudy\WWW\php_web\app\index\controller\Msgadmin.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\msgadmin.html [ array (
+  0 => 'leavemsg',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T14:59:46+08:00 ] 0.0.0.0 GET localhost/undefinedcss/modules/layer/default/layer.css?v=3.0.3303
+[运行时间：0.022923s] [吞吐率：43.62req/s] [内存消耗：1,104.79kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'undefinedcss',
+    2 => 'modules',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680; PHPSESSID=ea0c47m393113qsokiv5hf7qi5; Cauthor=ada20670f4509844c5e52357af9f272e',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/Msgadmin',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/undefinedcss/modules/layer/default/layer_css' => '',
+  'v' => '3.0.3303',
+  'layer' => 'default',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T16:49:54+08:00 ] 192.168.137.116 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.026991s] [吞吐率：37.05req/s] [内存消耗：1,096.77kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T16:49:55+08:00 ] 192.168.137.116 GET 192.168.137.1/
+[运行时间：0.108242s] [吞吐率：9.24req/s] [内存消耗：1,956.80kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 9; MI 8 MIUI/9.3.1)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\php_web\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\index.html [ array (
+  0 => 'article',
+  1 => 'count',
+  2 => 'article_big',
+  3 => 'article_big_2',
+  4 => 'page',
+  5 => 'last',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T16:50:13+08:00 ] 192.168.137.116 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.051201s] [吞吐率：19.53req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T16:55:33+08:00 ] 192.168.137.116 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.041851s] [吞吐率：23.89req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T17:35:15+08:00 ] 192.168.137.116 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.026730s] [吞吐率：37.41req/s] [内存消耗：1,096.77kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T17:40:04+08:00 ] 192.168.137.116 GET 192.168.137.1/
+[运行时间：0.101308s] [吞吐率：9.87req/s] [内存消耗：1,956.86kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 9; MI 8 MIUI/9.3.1)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\php_web\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\index.html [ array (
+  0 => 'article',
+  1 => 'count',
+  2 => 'article_big',
+  3 => 'article_big_2',
+  4 => 'page',
+  5 => 'last',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T17:40:05+08:00 ] 192.168.137.116 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.061541s] [吞吐率：16.25req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T17:47:40+08:00 ] 192.168.137.116 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.029034s] [吞吐率：34.44req/s] [内存消耗：1,096.77kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T17:49:04+08:00 ] 192.168.137.116 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.053361s] [吞吐率：18.74req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T17:54:42+08:00 ] 192.168.137.116 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.050217s] [吞吐率：19.91req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T17:55:17+08:00 ] 192.168.137.116 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.045131s] [吞吐率：22.16req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T17:59:08+08:00 ] 192.168.137.116 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.025917s] [吞吐率：38.58req/s] [内存消耗：1,096.77kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T18:36:13+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.025946s] [吞吐率：38.54req/s] [内存消耗：1,096.77kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T18:36:13+08:00 ] 192.168.137.249 GET 192.168.137.1/
+[运行时间：0.086603s] [吞吐率：11.55req/s] [内存消耗：1,956.80kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 9; MI 8 MIUI/9.3.1)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\php_web\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\index.html [ array (
+  0 => 'article',
+  1 => 'count',
+  2 => 'article_big',
+  3 => 'article_big_2',
+  4 => 'page',
+  5 => 'last',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T18:48:47+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.026049s] [吞吐率：38.39req/s] [内存消耗：1,096.77kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T18:50:05+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.056356s] [吞吐率：17.74req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T18:53:31+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.046276s] [吞吐率：21.61req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T18:54:58+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.025485s] [吞吐率：39.24req/s] [内存消耗：1,096.77kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T18:57:20+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.056632s] [吞吐率：17.66req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T18:58:44+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.057605s] [吞吐率：17.36req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T18:59:36+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.051306s] [吞吐率：19.49req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T19:56:21+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.026227s] [吞吐率：38.13req/s] [内存消耗：1,096.77kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T19:56:21+08:00 ] 192.168.137.249 GET 192.168.137.1/
+[运行时间：0.081019s] [吞吐率：12.34req/s] [内存消耗：1,956.80kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 9; MI 8 MIUI/9.3.1)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\php_web\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\index.html [ array (
+  0 => 'article',
+  1 => 'count',
+  2 => 'article_big',
+  3 => 'article_big_2',
+  4 => 'page',
+  5 => 'last',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T20:46:20+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.026378s] [吞吐率：37.91req/s] [内存消耗：1,096.77kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T20:46:51+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.054408s] [吞吐率：18.38req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T20:48:29+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.051709s] [吞吐率：19.34req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T21:00:09+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.031608s] [吞吐率：31.64req/s] [内存消耗：1,096.77kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T21:01:43+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.050595s] [吞吐率：19.76req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T21:01:54+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.021618s] [吞吐率：46.26req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T21:06:43+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.054914s] [吞吐率：18.21req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T21:19:13+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.025881s] [吞吐率：38.64req/s] [内存消耗：1,096.77kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T21:23:47+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.088195s] [吞吐率：11.34req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T21:23:50+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.055243s] [吞吐率：18.10req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T21:23:57+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.075946s] [吞吐率：13.17req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T21:28:24+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.028380s] [吞吐率：35.24req/s] [内存消耗：1,096.77kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T21:29:15+08:00 ] 192.168.137.249 GET 192.168.137.1/
+[运行时间：0.101778s] [吞吐率：9.83req/s] [内存消耗：1,956.86kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 9; MI 8 MIUI/9.3.1)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\php_web\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\index.html [ array (
+  0 => 'article',
+  1 => 'count',
+  2 => 'article_big',
+  3 => 'article_big_2',
+  4 => 'page',
+  5 => 'last',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T21:29:18+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.047492s] [吞吐率：21.06req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T21:30:01+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.047389s] [吞吐率：21.10req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T21:30:02+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.056927s] [吞吐率：17.57req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T21:31:14+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.069040s] [吞吐率：14.48req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T21:31:15+08:00 ] 192.168.137.249 GET 192.168.137.1/
+[运行时间：0.114713s] [吞吐率：8.72req/s] [内存消耗：1,956.86kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 9; MI 8 MIUI/9.3.1)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\php_web\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\index.html [ array (
+  0 => 'article',
+  1 => 'count',
+  2 => 'article_big',
+  3 => 'article_big_2',
+  4 => 'page',
+  5 => 'last',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T21:33:03+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.040186s] [吞吐率：24.88req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T21:33:16+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.063849s] [吞吐率：15.66req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T21:37:42+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.026294s] [吞吐率：38.03req/s] [内存消耗：1,096.77kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T22:23:00+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.026530s] [吞吐率：37.69req/s] [内存消耗：1,096.77kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T22:24:03+08:00 ] 192.168.137.249 GET 192.168.137.1/
+[运行时间：0.132437s] [吞吐率：7.55req/s] [内存消耗：1,956.86kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 9; MI 8 MIUI/9.3.1)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\php_web\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\index.html [ array (
+  0 => 'article',
+  1 => 'count',
+  2 => 'article_big',
+  3 => 'article_big_2',
+  4 => 'page',
+  5 => 'last',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T22:24:04+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.060658s] [吞吐率：16.49req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T22:24:07+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.059415s] [吞吐率：16.83req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T23:54:33+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.028554s] [吞吐率：35.02req/s] [内存消耗：1,096.77kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-07T23:54:40+08:00 ] 192.168.137.249 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.048216s] [吞吐率：20.74req/s] [内存消耗：1,096.74kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File

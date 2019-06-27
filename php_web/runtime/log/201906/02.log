@@ -1,0 +1,536 @@
+---------------------------------------------------------------
+[ 2019-06-02T21:00:30+08:00 ] 0.0.0.0 GET localhost/
+[运行时间：0.395528s] [吞吐率：2.53req/s] [内存消耗：1,970.57kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\php_web\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\index.html [ array (
+  0 => 'article',
+  1 => 'count',
+  2 => 'article_big',
+  3 => 'article_big_2',
+  4 => 'page',
+  5 => 'last',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-02T21:00:30+08:00 ] 0.0.0.0 GET localhost/src=
+[运行时间：0.041665s] [吞吐率：24.00req/s] [内存消耗：1,098.31kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'src=',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/src' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-02T21:00:39+08:00 ] 0.0.0.0 GET localhost/edit
+[运行时间：0.072771s] [吞吐率：13.74req/s] [内存消耗：1,434.01kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'edit',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/edit' => '',
+)
+[ info ] [ RUN ] app\index\controller\Edit->index[ D:\phpstudy\WWW\php_web\app\index\controller\Edit.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\edit.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-02T21:00:39+08:00 ] 0.0.0.0 GET localhost/undefinedcss/modules/layer/default/layer.css?v=3.0.3303
+[运行时间：0.037466s] [吞吐率：26.69req/s] [内存消耗：1,104.34kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'undefinedcss',
+    2 => 'modules',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/edit',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/undefinedcss/modules/layer/default/layer_css' => '',
+  'v' => '3.0.3303',
+  'layer' => 'default',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-02T21:00:59+08:00 ] 0.0.0.0 POST localhost/Edit?callback=jQuery112404153457053046077_1559480439876
+[运行时间：0.139877s] [吞吐率：7.15req/s] [内存消耗：1,915.64kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Edit',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/edit',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarySm3e6hPAjOPAnV3n',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'content-length' => '765',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/Edit' => '',
+  'callback' => 'jQuery112404153457053046077_1559480439876',
+  'type' => '11',
+  'tittle' => 'aaaaaaaaaaaa',
+  'summary' => 'sssss',
+  'status' => '1',
+  'isfirst' => '0',
+  'img' => 'gsdgvdvdv',
+  'content' => '<p>fddddddddddddffffffffffffffffffffff</p>',
+)
+[ info ] [ RUN ] app\index\controller\Edit->index[ D:\phpstudy\WWW\php_web\app\index\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-02T21:01:00+08:00 ] 0.0.0.0 GET localhost/edit?editorValue=%3Cp%3Efddddddddddddffffffffffffffffffffff%3C%2Fp%3E
+[运行时间：0.052939s] [吞吐率：18.89req/s] [内存消耗：1,311.60kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'edit',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/edit',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/edit' => '',
+  'editorValue' => '<p>fddddddddddddffffffffffffffffffffff</p>',
+)
+[ info ] [ RUN ] app\index\controller\Edit->index[ D:\phpstudy\WWW\php_web\app\index\controller\Edit.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\edit.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-02T21:01:00+08:00 ] 0.0.0.0 GET localhost/undefinedcss/modules/layer/default/layer.css?v=3.0.3303
+[运行时间：0.029558s] [吞吐率：33.83req/s] [内存消耗：1,104.63kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'undefinedcss',
+    2 => 'modules',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/edit?editorValue=%3Cp%3Efddddddddddddffffffffffffffffffffff%3C%2Fp%3E',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/undefinedcss/modules/layer/default/layer_css' => '',
+  'v' => '3.0.3303',
+  'layer' => 'default',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-02T21:01:06+08:00 ] 0.0.0.0 GET localhost/Operate
+[运行时间：0.193350s] [吞吐率：5.17req/s] [内存消耗：1,964.25kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Operate',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/edit?editorValue=%3Cp%3Efddddddddddddffffffffffffffffffffff%3C%2Fp%3E',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/Operate' => '',
+)
+[ info ] [ RUN ] app\index\controller\Operate->index[ D:\phpstudy\WWW\php_web\app\index\controller\Operate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\operate.html [ array (
+  0 => 'article',
+  1 => 'count',
+  2 => 'page',
+  3 => 'last',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-02T21:01:10+08:00 ] 0.0.0.0 GET localhost/Operate/page/id/2.html
+[运行时间：0.069221s] [吞吐率：14.45req/s] [内存消耗：1,964.07kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Operate',
+    2 => 'page',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/Operate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/Operate/page/id/2_html' => '',
+  'id' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Operate->page[ D:\phpstudy\WWW\php_web\app\index\controller\Operate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\operate.html [ array (
+  0 => 'article',
+  1 => 'count',
+  2 => 'page',
+  3 => 'last',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-02T21:01:11+08:00 ] 0.0.0.0 GET localhost/Operate/page/id/1.html
+[运行时间：0.116269s] [吞吐率：8.60req/s] [内存消耗：1,982.55kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Operate',
+    2 => 'page',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/Operate/page/id/2.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/Operate/page/id/1_html' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Operate->page[ D:\phpstudy\WWW\php_web\app\index\controller\Operate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\operate.html [ array (
+  0 => 'article',
+  1 => 'count',
+  2 => 'page',
+  3 => 'last',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-02T21:01:13+08:00 ] 0.0.0.0 GET localhost/Operate/edit/id/37.html
+[运行时间：0.104891s] [吞吐率：9.53req/s] [内存消耗：1,941.13kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Operate',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/Operate/page/id/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/Operate/edit/id/37_html' => '',
+  'id' => '37',
+)
+[ info ] [ RUN ] app\index\controller\Operate->edit[ D:\phpstudy\WWW\php_web\app\index\controller\Operate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\editchange.html [ array (
+  0 => 'id',
+  1 => 'tittle',
+  2 => 'author',
+  3 => 'summary',
+  4 => 'content',
+  5 => 'time',
+  6 => 'img',
+  7 => 'imgsum',
+  8 => 'status',
+  9 => 'love',
+  10 => 'isfirst',
+  11 => 'retain3',
+  12 => 'viewtime',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-02T21:01:19+08:00 ] 0.0.0.0 GET localhost/Edit
+[运行时间：0.023699s] [吞吐率：42.20req/s] [内存消耗：1,311.38kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Edit',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/Operate/page/id/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/Edit' => '',
+)
+[ info ] [ RUN ] app\index\controller\Edit->index[ D:\phpstudy\WWW\php_web\app\index\controller\Edit.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\edit.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-02T21:01:19+08:00 ] 0.0.0.0 GET localhost/undefinedcss/modules/layer/default/layer.css?v=3.0.3303
+[运行时间：0.036557s] [吞吐率：27.35req/s] [内存消耗：1,104.34kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'undefinedcss',
+    2 => 'modules',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/Edit',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/undefinedcss/modules/layer/default/layer_css' => '',
+  'v' => '3.0.3303',
+  'layer' => 'default',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-02T23:27:03+08:00 ] 192.168.137.110 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.029724s] [吞吐率：33.64req/s] [内存消耗：1,096.81kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-02T23:27:03+08:00 ] 192.168.137.110 GET 192.168.137.1/
+[运行时间：0.077713s] [吞吐率：12.87req/s] [内存消耗：1,962.25kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 9; MI 8 MIUI/9.3.1)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\php_web\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\index.html [ array (
+  0 => 'article',
+  1 => 'count',
+  2 => 'article_big',
+  3 => 'article_big_2',
+  4 => 'page',
+  5 => 'last',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-02T23:34:05+08:00 ] 192.168.137.110 GET 192.168.137.1/cgi-bin/luci/api/xqsystem/init_info
+[运行时间：0.026009s] [吞吐率：38.45req/s] [内存消耗：1,096.81kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cgi-bin',
+    2 => 'luci',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'okhttp/3.10.0',
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'host' => '192.168.137.1',
+)
+[ info ] [ PARAM ] array (
+  '/cgi-bin/luci/api/xqsystem/init_info' => '',
+  'api' => 'xqsystem',
+)
+[ info ] [ LOG ] INIT File

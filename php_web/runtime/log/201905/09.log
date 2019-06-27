@@ -1,0 +1,768 @@
+---------------------------------------------------------------
+[ 2019-05-09T21:02:16+08:00 ] 0.0.0.0 GET localhost/
+[运行时间：0.164253s] [吞吐率：6.09req/s] [内存消耗：2,110.92kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\php_web\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\index.html [ array (
+  0 => 'article',
+  1 => 'count',
+  2 => 'article_big',
+  3 => 'article_big_2',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-09T21:02:34+08:00 ] 0.0.0.0 GET localhost/
+[运行时间：0.134489s] [吞吐率：7.44req/s] [内存消耗：1,980.56kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\php_web\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\index.html [ array (
+  0 => 'article',
+  1 => 'count',
+  2 => 'article_big',
+  3 => 'article_big_2',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-09T21:02:38+08:00 ] 0.0.0.0 GET localhost/edit
+[运行时间：0.032818s] [吞吐率：30.47req/s] [内存消耗：1,433.63kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'edit',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/edit' => '',
+)
+[ info ] [ RUN ] app\index\controller\Edit->index[ D:\phpstudy\WWW\php_web\app\index\controller\Edit.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\edit.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-09T21:06:14+08:00 ] 0.0.0.0 POST localhost/Edit?callback=jQuery1124010151910200152492_1557406958188
+[运行时间：0.106944s] [吞吐率：9.35req/s] [内存消耗：1,976.10kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Edit',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/edit',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywTHROuo26bNTMFE7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'content-length' => '16593',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/Edit' => '',
+  'callback' => 'jQuery1124010151910200152492_1557406958188',
+  'type' => '11',
+  'tittle' => 'java简单计算器（swing界面）',
+  'summary' => '初创于2018.5.搬运自本人CSDN',
+  'status' => '1',
+  'isfirst' => '1',
+  'img' => '/ueditor/php/upload/image/20190509/1557405882315372.png',
+  'content' => '<p style="white-space: normal;">&nbsp; &nbsp;其实这玩意儿是我之前写的东西了。今天写android的卡在了sin，cos的处理上。。。实在无聊便更了一下。</p><p style="white-space: normal;"><br/></p><p style="white-space: normal;">&nbsp; &nbsp; &nbsp; 首先声明一下，这是我学java写的第一个东西（准确是2.0版本），所以比较简陋。大家凑合凑合。</p><p style="white-space: normal;"><br/></p><p style="white-space: normal;">&nbsp; &nbsp; &nbsp; 之后，这个版本功能很少，仅仅支持一些小的操作，就和那种十块钱一个的计算器功能差不多。不支持括号，括号版本请见我下个安卓计算器。代码中加了大量注释，大家应该看得懂。有任何不懂得，欢迎留言~（虽然从来没有过= =）</p><p style="white-space: normal;"><br/></p><p style="white-space: normal;">&nbsp; &nbsp; &nbsp; 最后GUI和数据处理我写在了一起，这个并不推荐，会感觉代码比较乱，且不适合找bug。。。</p><p style="white-space: normal;"><br/></p><p style="white-space: normal;">&nbsp; &nbsp; &nbsp; 贴两张截图</p><p style="white-space: normal; text-align: center;"><img src="/ueditor/php/upload/image/20190509/1557406987131259.png"/></p><p style="white-space: normal; text-align: center;"><img src="/ueditor/php/upload/image/20190509/1557406987138674.png"/></p><p style="white-space: normal;"><br/></p><p style="white-space: normal;"><br/></p><pre class="brush:cpp;toolbar:false">/**&nbsp;&nbsp;&nbsp;简单计算器&nbsp;&nbsp;
+&nbsp;*&nbsp;注意事项：1.目前仅做到小数点后八位的输入（输出不止）
+&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.MOD功能仅限整数。
+&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.如需使用根号功能，请先打根号再打数据，如根号3的值需要键入&nbsp;&nbsp;“3”&nbsp;“根号”
+&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.纠错目前没做，数据不支持删除功能。
+&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.如遇到任何bug，欢迎指正。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time：2018/5/5
+&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**/
+&nbsp;
+package&nbsp;jisuan;
+&nbsp;
+import&nbsp;java.awt.*;
+import&nbsp;java.awt.event.*;
+import&nbsp;javax.lang.model.type.PrimitiveType;
+import&nbsp;javax.swing.*;
+import&nbsp;java.awt.Dimension;
+import&nbsp;java.math.*;
+import&nbsp;java.nio.file.attribute.FileOwnerAttributeView;
+&nbsp;
+public&nbsp;class&nbsp;mine&nbsp;extends&nbsp;JFrame&nbsp;implements&nbsp;ActionListener&nbsp;{
+&nbsp;
+	int&nbsp;f&nbsp;=&nbsp;0,&nbsp;fd&nbsp;=&nbsp;0;
+	double&nbsp;a&nbsp;=&nbsp;0,&nbsp;b&nbsp;=&nbsp;0;
+	double&nbsp;t&nbsp;=&nbsp;10.0;
+	JPanel&nbsp;pan1&nbsp;=&nbsp;new&nbsp;JPanel();
+	JPanel&nbsp;pan2&nbsp;=&nbsp;new&nbsp;JPanel(new&nbsp;GridLayout(5,&nbsp;5,&nbsp;8,&nbsp;8));
+	JTextField&nbsp;tf&nbsp;=&nbsp;new&nbsp;JTextField();
+	//&nbsp;private&nbsp;MyPanel1&nbsp;qq;
+	JButton&nbsp;bu0&nbsp;=&nbsp;new&nbsp;JButton(&quot;0&quot;);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//定义设置按钮
+	JButton&nbsp;bu1&nbsp;=&nbsp;new&nbsp;JButton(&quot;1&quot;);
+	JButton&nbsp;bu2&nbsp;=&nbsp;new&nbsp;JButton(&quot;2&quot;);
+	JButton&nbsp;bu3&nbsp;=&nbsp;new&nbsp;JButton(&quot;3&quot;);
+	JButton&nbsp;bu4&nbsp;=&nbsp;new&nbsp;JButton(&quot;4&quot;);
+	JButton&nbsp;bu5&nbsp;=&nbsp;new&nbsp;JButton(&quot;5&quot;);
+	JButton&nbsp;bu6&nbsp;=&nbsp;new&nbsp;JButton(&quot;6&quot;);
+	JButton&nbsp;bu7&nbsp;=&nbsp;new&nbsp;JButton(&quot;7&quot;);
+	JButton&nbsp;bu8&nbsp;=&nbsp;new&nbsp;JButton(&quot;8&quot;);
+	JButton&nbsp;bu9&nbsp;=&nbsp;new&nbsp;JButton(&quot;9&quot;);
+&nbsp;
+	JButton&nbsp;bu_jia&nbsp;=&nbsp;new&nbsp;JButton(&quot;+&quot;);
+	JButton&nbsp;bu_jian&nbsp;=&nbsp;new&nbsp;JButton(&quot;-&quot;);
+	JButton&nbsp;bu_cheng&nbsp;=&nbsp;new&nbsp;JButton(&quot;x&quot;);
+	JButton&nbsp;bu_chu&nbsp;=&nbsp;new&nbsp;JButton(&quot;/&quot;);
+	JButton&nbsp;bu_cifang&nbsp;=&nbsp;new&nbsp;JButton(&quot;次方&quot;);
+	JButton&nbsp;bu_dengyu&nbsp;=&nbsp;new&nbsp;JButton(&quot;=&quot;);
+	JButton&nbsp;bu_MOD&nbsp;=&nbsp;new&nbsp;JButton(&quot;MOD&quot;);
+	JButton&nbsp;bu_root&nbsp;=&nbsp;new&nbsp;JButton(&quot;√&quot;);
+	JButton&nbsp;bu_dian&nbsp;=&nbsp;new&nbsp;JButton(&quot;.&quot;);
+	JButton&nbsp;bu_clean&nbsp;=&nbsp;new&nbsp;JButton(&quot;clean&quot;);
+	JButton&nbsp;bu_sin&nbsp;=&nbsp;new&nbsp;JButton(&quot;sin&quot;);
+	JButton&nbsp;bu_cos&nbsp;=&nbsp;new&nbsp;JButton(&quot;cos&quot;);
+	JButton&nbsp;bu_tan&nbsp;=&nbsp;new&nbsp;JButton(&quot;tan&quot;);
+	JButton&nbsp;bu_lg&nbsp;=&nbsp;new&nbsp;JButton(&quot;lg&quot;);
+	JButton&nbsp;bu_pi&nbsp;=&nbsp;new&nbsp;JButton(&quot;π&quot;);
+&nbsp;
+	public&nbsp;mine()&nbsp;{
+		/*
+		&nbsp;*&nbsp;MyPanel1&nbsp;qq=new&nbsp;MyPanel1();&nbsp;this.addKeyListener(qq);
+		&nbsp;*/
+		tf.setEditable(false);
+		bu0.setActionCommand(&quot;0&quot;);
+		bu1.setActionCommand(&quot;1&quot;);
+		bu2.setActionCommand(&quot;2&quot;);
+		bu3.setActionCommand(&quot;3&quot;);
+		bu4.setActionCommand(&quot;4&quot;);
+		bu5.setActionCommand(&quot;5&quot;);
+		bu6.setActionCommand(&quot;6&quot;);
+		bu7.setActionCommand(&quot;7&quot;);
+		bu8.setActionCommand(&quot;8&quot;);
+		bu9.setActionCommand(&quot;9&quot;);
+		bu_jia.setActionCommand(&quot;+&quot;);
+		bu_jian.setActionCommand(&quot;-&quot;);
+		bu_cheng.setActionCommand(&quot;x&quot;);
+		bu_chu.setActionCommand(&quot;/&quot;);
+		bu_cifang.setActionCommand(&quot;次方&quot;);&nbsp;&nbsp;
+		bu_dengyu.setActionCommand(&quot;=&quot;);
+		bu_MOD.setActionCommand(&quot;MOD&quot;);
+		bu_root.setActionCommand(&quot;root&quot;);
+		bu_dian.setActionCommand(&quot;.&quot;);
+		bu_clean.setActionCommand(&quot;clean&quot;);
+		bu_sin.setActionCommand(&quot;sin&quot;);
+		bu_cos.setActionCommand(&quot;cos&quot;);
+		bu_tan.setActionCommand(&quot;tan&quot;);
+		bu_lg.setActionCommand(&quot;lg&quot;);
+		bu_pi.setActionCommand(&quot;π&quot;);
+&nbsp;
+		bu0.addActionListener(this);
+		bu1.addActionListener(this);
+		bu2.addActionListener(this);
+		bu3.addActionListener(this);&nbsp;&nbsp;&nbsp;//加监听
+		bu4.addActionListener(this);
+		bu5.addActionListener(this);
+		bu6.addActionListener(this);
+		bu7.addActionListener(this);
+		bu8.addActionListener(this);
+		bu9.addActionListener(this);
+		bu_jia.addActionListener(this);
+		bu_jian.addActionListener(this);
+		bu_cheng.addActionListener(this);
+		bu_chu.addActionListener(this);
+		bu_cifang.addActionListener(this);
+		bu_dengyu.addActionListener(this);
+		bu_MOD.addActionListener(this);
+		bu_root.addActionListener(this);
+		bu_dian.addActionListener(this);
+		bu_clean.addActionListener(this);
+		bu_sin.addActionListener(this);
+		bu_cos.addActionListener(this);
+		bu_tan.addActionListener(this);
+		bu_lg.addActionListener(this);
+		bu_pi.addActionListener(this);
+&nbsp;
+		tf.setPreferredSize(new&nbsp;Dimension(465,&nbsp;40));
+		tf.setFont(new&nbsp;Font(&quot;宋体&quot;,&nbsp;Font.PLAIN,&nbsp;28));
+		Font&nbsp;f&nbsp;=&nbsp;new&nbsp;Font(&quot;仿宋&quot;,&nbsp;Font.BOLD,&nbsp;25);//&nbsp;根据指定字体名称、样式和磅值大小，创建一个新&nbsp;Font。
+		Font&nbsp;F&nbsp;=&nbsp;new&nbsp;Font(&quot;仿宋&quot;,&nbsp;Font.BOLD,&nbsp;31);
+		Font&nbsp;ff&nbsp;=&nbsp;new&nbsp;Font(&quot;仿宋&quot;,&nbsp;Font.BOLD,&nbsp;21);
+		bu0.setFont(f);
+		bu1.setFont(f);
+		bu2.setFont(f);
+		bu3.setFont(f);
+		bu4.setFont(f);
+		bu5.setFont(f);
+		bu6.setFont(f);
+		bu7.setFont(f);
+		bu8.setFont(f);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//做样式，就是为了好看。
+		bu9.setFont(f);
+		bu0.setFont(f);
+		bu_jia.setFont(f);
+		bu_jian.setFont(f);
+		bu_cheng.setFont(f);
+		bu_chu.setFont(f);
+		bu_root.setFont(f);
+		bu_MOD.setFont(f);
+		bu_clean.setFont(ff);
+		bu_dengyu.setFont(f);
+		bu_dian.setFont(f);
+		bu_cifang.setFont(ff);
+		bu_sin.setFont(f);
+		bu_cos.setFont(f);
+		bu_tan.setFont(f);
+		bu_lg.setFont(f);
+		bu_pi.setFont(F);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//
+&nbsp;
+		pan1.add(tf);
+		this.add(pan1,&nbsp;BorderLayout.NORTH);
+		pan2.add(bu_sin);
+		pan2.add(bu_root);
+		pan2.add(bu_MOD);
+		pan2.add(bu_clean);
+		pan2.add(bu_jia);
+		pan2.add(bu_cos);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//这儿是网格布局，这里就是按照顺序加入按钮
+		pan2.add(bu1);
+		pan2.add(bu2);
+		pan2.add(bu3);
+		pan2.add(bu_jian);
+		pan2.add(bu_tan);
+		pan2.add(bu4);
+		pan2.add(bu5);
+		pan2.add(bu6);
+		pan2.add(bu_cheng);
+		pan2.add(bu_lg);
+		pan2.add(bu7);
+		pan2.add(bu8);
+		pan2.add(bu9);
+		pan2.add(bu_chu);
+		pan2.add(bu_pi);
+		pan2.add(bu_cifang);
+		pan2.add(bu0);
+		pan2.add(bu_dian);
+		pan2.add(bu_dengyu);
+&nbsp;
+		this.setTitle(&quot;王俊谦最帅！&quot;);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;&nbsp;&nbsp;王俊谦是我室友。哈哈哈哈`
+		this.add(pan2,&nbsp;BorderLayout.CENTER);
+		this.setSize(500,&nbsp;350);
+		this.setLocationRelativeTo(null);&nbsp;//&nbsp;居中
+		this.setVisible(true);
+		this.setResizable(false);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+&nbsp;
+	}
+&nbsp;
+	@Override
+	public&nbsp;void&nbsp;actionPerformed(ActionEvent&nbsp;e)&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//操作处理
+		if&nbsp;(e.getActionCommand().equals(&quot;1&quot;))&nbsp;{
+			opt(1);
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;2&quot;))&nbsp;{
+			opt(2);
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;3&quot;))&nbsp;{
+			opt(3);
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;4&quot;))&nbsp;{
+			opt(4);
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;5&quot;))&nbsp;{
+			opt(5);
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;6&quot;))&nbsp;{
+			opt(6);
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;7&quot;))&nbsp;{
+			opt(7);
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;8&quot;))&nbsp;{
+			opt(8);
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;9&quot;))&nbsp;{
+			opt(9);
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;0&quot;))&nbsp;{
+			opt(0);
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;+&quot;))&nbsp;{
+			this.f&nbsp;=&nbsp;1;
+			tf.setText(&quot;&quot;);
+			fd&nbsp;=&nbsp;0;
+			this.t&nbsp;=&nbsp;10.0;
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;-&quot;))&nbsp;{
+			this.f&nbsp;=&nbsp;2;
+			tf.setText(&quot;&quot;);
+			fd&nbsp;=&nbsp;0;
+			this.t&nbsp;=&nbsp;10.0;
+&nbsp;
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;x&quot;))&nbsp;{
+			this.f&nbsp;=&nbsp;3;
+			tf.setText(&quot;&quot;);
+			fd&nbsp;=&nbsp;0;
+			this.t&nbsp;=&nbsp;10.0;
+&nbsp;
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;/&quot;))&nbsp;{
+			this.f&nbsp;=&nbsp;4;
+			tf.setText(&quot;&quot;);
+			fd&nbsp;=&nbsp;0;
+			this.t&nbsp;=&nbsp;10.0;
+&nbsp;
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;MOD&quot;))&nbsp;{
+			this.f&nbsp;=&nbsp;5;
+			tf.setText(&quot;&quot;);
+			//&nbsp;fd=0;
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;次方&quot;))&nbsp;{
+			this.f&nbsp;=&nbsp;6;
+			tf.setText(&quot;&quot;);
+			fd&nbsp;=&nbsp;0;
+			this.t&nbsp;=&nbsp;10.0;
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;=&quot;))&nbsp;{
+			calcu(this.a,&nbsp;this.b,&nbsp;this.f);
+			//&nbsp;this.a&nbsp;=&nbsp;0;
+			this.b&nbsp;=&nbsp;0;
+			this.f&nbsp;=&nbsp;0;
+			this.t&nbsp;=&nbsp;10;
+			fd&nbsp;=&nbsp;0;
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;clean&quot;))&nbsp;{
+			tf.setText(&quot;&quot;);
+			this.a&nbsp;=&nbsp;0;
+			this.b&nbsp;=&nbsp;0;
+			this.f&nbsp;=&nbsp;0;
+			t&nbsp;=&nbsp;10;
+			fd&nbsp;=&nbsp;0;
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;root&quot;))&nbsp;{
+			this.a&nbsp;=&nbsp;Math.sqrt(this.a);
+			tf.setText(String.valueOf(a));
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;sin&quot;))&nbsp;{
+			this.a&nbsp;=&nbsp;Math.sin(this.a);
+			tf.setText(String.valueOf(a));
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;cos&quot;))&nbsp;{
+			this.a&nbsp;=&nbsp;Math.cos(this.a);
+			tf.setText(String.valueOf(a));
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;tan&quot;))&nbsp;{
+			this.a&nbsp;=&nbsp;Math.tan(this.a);
+			tf.setText(String.valueOf(a));
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;lg&quot;))&nbsp;{
+			this.a&nbsp;=&nbsp;Math.log10(this.a);
+			tf.setText(String.valueOf(a));
+		}&nbsp;else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;π&quot;))&nbsp;{
+			this.a&nbsp;=&nbsp;Math.PI;
+			tf.setText(String.valueOf(a));
+		}&nbsp;
+		else&nbsp;if&nbsp;(e.getActionCommand().equals(&quot;.&quot;))&nbsp;{
+			fd&nbsp;=&nbsp;1;
+		}
+	}
+&nbsp;
+	public&nbsp;void&nbsp;opt(int&nbsp;number)&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//具体操作
+		if&nbsp;(this.f&nbsp;==&nbsp;0)&nbsp;//&nbsp;the&nbsp;first&nbsp;number
+		{
+&nbsp;
+			if&nbsp;(fd&nbsp;==&nbsp;0)&nbsp;//&nbsp;梅小数点
+			{
+				this.a&nbsp;=&nbsp;this.a&nbsp;*&nbsp;10&nbsp;+&nbsp;number;
+				tf.setText(String.valueOf((int)&nbsp;this.a));
+			}&nbsp;else&nbsp;{//&nbsp;有小数点
+				double&nbsp;dnumber;
+				dnumber&nbsp;=&nbsp;(double)&nbsp;number&nbsp;/&nbsp;t;
+				t&nbsp;=&nbsp;t&nbsp;*&nbsp;10.0;
+				this.a&nbsp;+=&nbsp;dnumber;
+				BigDecimal&nbsp;BB&nbsp;=&nbsp;new&nbsp;BigDecimal(this.a);&nbsp;//&nbsp;四舍五入取值
+				double&nbsp;dd&nbsp;=&nbsp;BB.setScale(8,&nbsp;BigDecimal.ROUND_HALF_DOWN).doubleValue();
+				tf.setText(String.valueOf(dd));
+			}
+&nbsp;
+		}&nbsp;//&nbsp;this&nbsp;second&nbsp;number
+		else&nbsp;{
+			//&nbsp;t=10;
+			if&nbsp;(fd&nbsp;==&nbsp;0)&nbsp;//&nbsp;梅小数点
+			{
+				this.b&nbsp;=&nbsp;this.b&nbsp;*&nbsp;10&nbsp;+&nbsp;number;
+				tf.setText(String.valueOf((int)&nbsp;this.b));
+			}&nbsp;else&nbsp;{
+				double&nbsp;dnumber;
+				dnumber&nbsp;=&nbsp;(double)&nbsp;number&nbsp;/&nbsp;t;
+				t&nbsp;=&nbsp;t&nbsp;*&nbsp;10.0;
+				this.b&nbsp;+=&nbsp;dnumber;
+				BigDecimal&nbsp;BB&nbsp;=&nbsp;new&nbsp;BigDecimal(this.b);
+				double&nbsp;dd&nbsp;=&nbsp;BB.setScale(8,&nbsp;BigDecimal.ROUND_HALF_DOWN).doubleValue();
+				tf.setText(String.valueOf(dd));
+			}
+		}
+	}
+&nbsp;
+	public&nbsp;void&nbsp;calcu(double&nbsp;a,&nbsp;double&nbsp;b,&nbsp;int&nbsp;f)&nbsp;{
+		double&nbsp;sum&nbsp;=&nbsp;789;
+		switch&nbsp;(f)&nbsp;{
+		case&nbsp;0:&nbsp;&nbsp;&nbsp;//无操作直接按等于
+		case&nbsp;1:&nbsp;&nbsp;&nbsp;//&nbsp;加
+			sum&nbsp;=&nbsp;a&nbsp;+&nbsp;b;
+			break;
+		case&nbsp;2:&nbsp;//&nbsp;减
+			sum&nbsp;=&nbsp;a&nbsp;-&nbsp;b;
+			break;
+		case&nbsp;3:&nbsp;//&nbsp;乘
+			sum&nbsp;=&nbsp;a&nbsp;*&nbsp;b;
+			break;
+		case&nbsp;4:&nbsp;//&nbsp;除
+			sum&nbsp;=&nbsp;a&nbsp;/&nbsp;b;
+			break;
+		case&nbsp;5:&nbsp;//&nbsp;取MOD
+			sum&nbsp;=&nbsp;(int)&nbsp;a&nbsp;%&nbsp;(int)&nbsp;b;
+			break;
+		case&nbsp;6:&nbsp;//&nbsp;取次方
+			sum&nbsp;=&nbsp;Math.pow(a,&nbsp;b);
+			break;
+		}
+&nbsp;
+		double&nbsp;Q&nbsp;=&nbsp;sum;
+		int&nbsp;QQ&nbsp;=&nbsp;(int)&nbsp;Q;
+		double&nbsp;QQQ&nbsp;=&nbsp;(double)&nbsp;QQ;
+		if&nbsp;(QQQ&nbsp;==&nbsp;sum)
+			tf.setText(String.valueOf(QQ));
+		else
+			tf.setText(String.valueOf(sum));
+		this.a&nbsp;=&nbsp;sum;
+	}
+&nbsp;
+	public&nbsp;static&nbsp;void&nbsp;main(String[]&nbsp;args)&nbsp;{
+		mine&nbsp;kk&nbsp;=&nbsp;new&nbsp;mine();
+	}
+}</pre><p style="white-space: normal;"><br/></p><p><br/></p>',
+)
+[ info ] [ RUN ] app\index\controller\Edit->index[ D:\phpstudy\WWW\php_web\app\index\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-09T21:37:20+08:00 ] 0.0.0.0 POST localhost/Edit?callback=jQuery1124010151910200152492_1557406958188
+[运行时间：0.075141s] [吞吐率：13.31req/s] [内存消耗：1,922.36kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Edit',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/edit',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryKoAAZJhdrHBX27Bb',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'content-length' => '2816',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/Edit' => '',
+  'callback' => 'jQuery1124010151910200152492_1557406958188',
+  'type' => '11',
+  'tittle' => '人脸识别考勤系统安卓APP（手把手教学-手动滑稽）',
+  'summary' => '初创于2018.11.搬运自本人CSDN',
+  'status' => '1',
+  'isfirst' => '2',
+  'img' => '/ueditor/php/upload/image/20190509/1557408972848328.png',
+  'content' => '<h1 style="box-sizing: border-box; outline: 0px; margin: 8px 0px 16px; padding: 0px; font-size: 28px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(79, 79, 79); line-height: 36px; overflow-wrap: break-word; white-space: normal; background-color: rgb(255, 255, 255);">
+    为了能让大家好好学习，直接导出成了图片，非常详细。
+</h1>
+<h1 style="box-sizing: border-box; outline: 0px; margin: 8px 0px 16px; padding: 0px; font-size: 28px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(79, 79, 79); line-height: 36px; overflow-wrap: break-word; white-space: normal; background-color: rgb(255, 255, 255);">
+    <a style="box-sizing: border-box; outline: 0px; margin: 0px; padding: 0px; color: rgb(78, 161, 219); cursor: pointer; overflow-wrap: break-word;"></a>文章尾部带有github和百度云链接，可以选择看源文件。&nbsp; github的文件由于大小限制被阉割了部分。
+</h1>
+<p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(79, 79, 79); line-height: 26px; overflow-x: auto; overflow-wrap: break-word; white-space: normal; background-color: rgb(255, 255, 255);">
+    百度云经常和谐我的下载，大家可以去我的个人博客下载。<a href="http://sumtudou.cn/download.html" target="_blank" style="box-sizing: border-box; outline: 0px; margin: 0px; padding: 0px; color: rgb(103, 149, 181); text-decoration-line: none; cursor: pointer; overflow-wrap: break-word;">http://sumtudou.cn/download.html</a>
+</p>
+<p style="text-align:center">
+    <img src="/ueditor/php/upload/image/20190509/1557408973945279.jpg"/>
+</p>
+
+<p>
+    <br/>
+</p>',
+)
+[ info ] [ RUN ] app\index\controller\Edit->index[ D:\phpstudy\WWW\php_web\app\index\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-09T21:39:13+08:00 ] 0.0.0.0 POST localhost/Edit?callback=jQuery1124010151910200152492_1557406958188
+[运行时间：0.084063s] [吞吐率：11.90req/s] [内存消耗：1,915.39kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Edit',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/edit',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarya9ANk6T9AUBxgQEd',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://localhost',
+  'accept' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01',
+  'content-length' => '1055',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/Edit' => '',
+  'callback' => 'jQuery1124010151910200152492_1557406958188',
+  'type' => '11',
+  'tittle' => '小标题文章2',
+  'summary' => '真的没啥',
+  'status' => '1',
+  'isfirst' => '2',
+  'img' => '/ueditor/php/upload/image/20190509/1557409143733863.png',
+  'content' => '<p>
+    333333333333333333333333333333333
+</p>
+<p>
+    222222222222222222222222222222
+</p>
+<p>
+    11111111111111111111111111
+</p>
+<p>
+    <img src="/ueditor/php/upload/image/20190509/1557409143733863.png" title="1557409143733863.png" alt="JYY[VU029~RT`FQRE({UKRX.png"/>
+</p>',
+)
+[ info ] [ RUN ] app\index\controller\Edit->index[ D:\phpstudy\WWW\php_web\app\index\controller\Edit.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-09T21:39:59+08:00 ] 0.0.0.0 GET localhost/
+[运行时间：0.091702s] [吞吐率：10.90req/s] [内存消耗：2,035.88kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\WWW\php_web\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\index.html [ array (
+  0 => 'article',
+  1 => 'count',
+  2 => 'article_big',
+  3 => 'article_big_2',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-09T21:39:59+08:00 ] 0.0.0.0 GET localhost/ueditor/php/upload/image/20190509/1557405882315372.png
+[运行时间：0.146398s] [吞吐率：6.83req/s] [内存消耗：1,103.30kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ueditor',
+    2 => 'php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/ueditor/php/upload/image/20190509/1557405882315372_png' => '',
+  'upload' => 'image',
+  0 => '1557405882315372.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-09T21:40:02+08:00 ] 0.0.0.0 GET localhost/Info/index/id/20.html
+[运行时间：0.160108s] [吞吐率：6.25req/s] [内存消耗：1,998.42kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Info',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/Info/index/id/20_html' => '',
+  'id' => '20',
+)
+[ info ] [ RUN ] app\index\controller\Info->index[ D:\phpstudy\WWW\php_web\app\index\controller\Info.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\info.html [ array (
+  0 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-09T21:51:53+08:00 ] 0.0.0.0 GET localhost/Download
+[运行时间：0.043962s] [吞吐率：22.75req/s] [内存消耗：1,307.23kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Download',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/Download' => '',
+)
+[ info ] [ RUN ] app\index\controller\Download->index[ D:\phpstudy\WWW\php_web\app\index\controller\Download.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\download.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-09T21:55:29+08:00 ] 0.0.0.0 GET localhost/Download
+[运行时间：0.065115s] [吞吐率：15.36req/s] [内存消耗：1,428.98kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpstudy\WWW\php_web\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Download',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Webstorm-4eb8b3=57b0db99-672f-4b1b-b1ea-0a1029c84255; pgv_pvi=4980935680',
+  'accept-language' => 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  '/Download' => '',
+)
+[ info ] [ RUN ] app\index\controller\Download->index[ D:\phpstudy\WWW\php_web\app\index\controller\Download.php ]
+[ info ] [ VIEW ] D:\phpstudy\WWW\php_web\public/../app/index\view\index\download.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
